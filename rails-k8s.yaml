@@ -1,6 +1,5 @@
-# --------------------------
+
 # PostgreSQL StatefulSet
-# --------------------------
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -40,8 +39,6 @@ spec:
           requests:
             storage: 1Gi
 
----
-# --------------------------
 # PostgreSQL Service
 # --------------------------
 apiVersion: v1
